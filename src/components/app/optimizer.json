@@ -1,0 +1,7 @@
+{
+    "dependencies": [
+        "require: ./",
+        "../app-search/optimizer.json",
+        "style.less"
+    ]
+}
