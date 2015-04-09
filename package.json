@@ -1,5 +1,5 @@
 {
-  "name": "marko-widget list",
+  "name": "marko-widget-list-example",
   "version": "1.0.0",
   "description": "List rendering with marko-widgets",
   "main": "server.js",
