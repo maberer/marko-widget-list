@@ -25,6 +25,7 @@ module.exports = require('marko-widgets').defineWidget({
     },
     
     handleRefresh: function(e) {
+        e.preventDefault;
         this.setState("ts", Date.now());
     }
 });
