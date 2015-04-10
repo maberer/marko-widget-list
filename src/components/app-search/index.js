@@ -1,5 +1,6 @@
 var searchItemsTpl = require('src/components/app-search-list');
 
+
 module.exports = require('marko-widgets').defineWidget({
     template: require.resolve('./template.marko'),
     

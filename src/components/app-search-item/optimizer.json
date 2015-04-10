@@ -1,6 +1,5 @@
 {
     "dependencies": [
-        "src/components/app-search-item/optimizer.json",
         "require: ./",
         "style.less"
     ]

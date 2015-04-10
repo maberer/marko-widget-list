@@ -5,11 +5,5 @@ module.exports = require('marko-widgets').defineWidget({
     
     init: function(){
         console.log("list init");
-    },
-    
-   getTemplateData: function(state, input) {
-       return {
-           items: input.items
-       };
-    }
+    }  
 });
