@@ -1,0 +1,5 @@
+{
+    "browser": {
+        "./citydata.js": "./citydata-browser.js"
+    }
+}

@@ -4,4 +4,10 @@
         <span>$data.text</span>
         <span>&nbsp;(refreshed: ${data.ts})</span>
         <a href="#" w-onclick="handleRefresh">&nbsp;Refresh!</a>
+        <a href="#" w-onclick="showDetails">&nbsp;Details for ${data.country}:&nbsp;</a>
+        
+        <span if="data.showCityData === true">
+            Capital: ${data.citydata.capital}, Population. ${data.citydata.population}
+        </span>
+
 </span>

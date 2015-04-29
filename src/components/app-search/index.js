@@ -4,10 +4,6 @@ var searchItemsTpl = require('src/components/app-search-list');
 module.exports = require('marko-widgets').defineWidget({
     template: require.resolve('./template.marko'),
     
-    init: function(){
-        console.log("init()");
-    },
-    
     getInitialState: function(input) {
 
         return {
@@ -24,8 +20,8 @@ module.exports = require('marko-widgets').defineWidget({
 
     addSearchItems: function(event) {
         
-        var newItems = [{topic: "FIRST", text: "the first of this fetch"}, 
-                        {topic: "SECOND", text: "the second of this fetch"}];
+        var newItems = [{id: 0, topic: "FIRST", text: "first", country: "Spain"}, 
+                        {id: 1, topic: "SECOND", text: "second", country: "France"}];
         
         var searchItemContainer = this.getEl('searchItems');
         
